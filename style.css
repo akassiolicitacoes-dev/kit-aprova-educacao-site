@@ -1,0 +1,25 @@
+:root {
+  --primary: #1F4E5F;
+  --accent: #DD6B20;
+  --success: #2F9E44;
+  --sand: #F7F3EC;
+  --ink: #222222;
+  --muted: #8A8A8A;
+}
+
+html { scroll-behavior: smooth; }
+body { font-family: 'Inter', sans-serif; color: var(--ink); background: var(--sand); }
+h1, h2, h3, .font-display { font-family: 'Poppins', sans-serif; }
+
+.btn-cta {
+  background: var(--accent);
+  color: #fff;
+  font-weight: 700;
+  transition: transform .15s ease, box-shadow .15s ease;
+  box-shadow: 0 6px 0 #b6531a;
+}
+.btn-cta:hover { transform: translateY(-2px); box-shadow: 0 8px 0 #b6531a; }
+.btn-cta:active { transform: translateY(2px); box-shadow: 0 3px 0 #b6531a; }
+
+.badge-success { background: var(--success); color: #fff; }
+.card { background: #fff; border-radius: 1rem; box-shadow: 0 10px 30px rgba(31,78,95,.08); }
